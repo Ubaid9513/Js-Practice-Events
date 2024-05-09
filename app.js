@@ -77,3 +77,84 @@
 //   para.innerHTML = "Hello! This is example"
 // }
 // setName();
+
+// ---X---
+
+function readMore(){
+  var text =document.getElementById("text").innerHTML;
+  var para = document.getElementById("para");
+  para.innerHTML = text;
+}
+
+// ---X---
+// Swapping images chapter
+
+// function changeImg(){
+//   var car = document.getElementById("car");
+//   car.src = "./images/img02.jpg";
+  
+// } 
+// function changeImgBefore(){
+//   var car = document.getElementById("car");
+//   car.src = "./images/img01.jpg"
+
+// }
+
+// function changeImage(id,src){
+//   var image = document.getElementById(id);
+//   image.src = src;
+// }
+
+// ---X---
+//  Target all elements by tag name
+
+
+// var para = document.getElementsByTagName("p");
+// para[0].style.color = "red";
+// for (var i = 0; i<para.length; i++){
+//   para[i].style.color = "blue";
+// }
+
+
+// var parent = document.getElementById("parent");
+// var para = parent.getElementsByTagName("p");
+// for (i = 0; i<para.length; i++){
+//   para[i].style.color = "red";
+// }
+
+
+// var parent = document.getElementById("parent");
+// var para = parent.getElementsByTagName("p");
+// for(var i = 0; i<para.length; i++){
+//   para[i].style.color = "blue";
+// }
+
+// ---X---
+// set interval
+
+// function timer(){
+//   console.log("running...");
+// }
+// setInterval(timer,1000);
+
+// set timeout
+
+// function timeOut(){
+//   console.log("Time up");
+// }
+// setTimeout(timeOut,2000);
+
+// ---next---
+
+// var count = 0;
+// var interval;
+// function timer(){
+//   count++
+//   console.log(count);
+// }
+// interval = setInterval(timer,1000);
+
+// setTimeout(function(){
+//   clearInterval(interval);
+// },5000);
+
